@@ -11,7 +11,7 @@ import {
 
 const members = [
   {
-    avatar: '/assets/zhe_wang.jpg',
+    avatar: '/avatar/zhe_wang.jpg',
     name: 'Zhe WANG',
     // title: 'Creator',
     links: [
@@ -27,7 +27,7 @@ const members = [
     `,
   },
   {
-    avatar: '/assets/jun_jiang.jpg',
+    avatar: '/avatar/jun_jiang.jpg',
     name: 'Jun JIANG',
     // title: 'Creator',
     links: [
@@ -43,7 +43,7 @@ const members = [
     `,
   },
   {
-    avatar: '/assets/jiacheng_zhang.jpg',
+    avatar: '/avatar/jiacheng_zhang.jpg',
     name: 'Jiacheng ZHANG',
     // title: 'Creator',
     links: [

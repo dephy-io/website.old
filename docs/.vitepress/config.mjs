@@ -5,11 +5,11 @@ export default defineConfig({
   title: "DePHY",
   titleTemplate: "DePHY | :title",
   description: "Web3 Infrastructure connecting the Verifiable Physical World.",
-  head: [['link', { rel: 'icon', href: '/assets/favicon.svg' }]],
+  head: [['link', { rel: 'icon', href: '/favicon.svg' }]],
   appearance: false,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: { src: "/assets/logo-l.svg", alt: "DePHY" },
+    logo: { src: "/logo-l.svg", alt: "DePHY" },
     siteTitle: false,
     nav: [
       { text: 'Home', link: '/' },
