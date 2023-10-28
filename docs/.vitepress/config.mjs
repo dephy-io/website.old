@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "DePHY",
+  titleTemplate: "DePHY | :title",
   description: "Web3 Infrastructure connecting the Verifiable Physical World.",
   head: [['link', { rel: 'icon', href: '/assets/favicon.svg' }]],
   appearance: false,

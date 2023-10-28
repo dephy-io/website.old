@@ -2,6 +2,8 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: Verifiable Web3 Infrastructure Connecting the Physical World
+
 hero:
   name: "Verifiable \nWeb3 Infrastructure"
   text: Connecting the Physical World
