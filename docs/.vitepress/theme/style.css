@@ -3,6 +3,37 @@
  * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
  */
 
+:root {
+  --vp-c-white: #F1F1F1;
+  --vp-c-black: #171717;
+
+  --vp-c-neutral: var(--vp-c-black);
+  --vp-c-neutral-inverse: var(--vp-c-white);
+
+  --vp-c-bg: var(--vp-c-neutral-inverse);
+  --vp-c-bg-alt: #f6f6f7;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-bg-soft: #f6f6f7;
+
+  --vp-nav-height: 96px;
+  --vp-nav-bg-color: var(--vp-c-bg);
+  --vp-nav-screen-bg-color: var(--vp-c-bg);
+  --vp-nav-logo-height: 42px;
+
+}
+
+  .dark {
+  --vp-c-white: #171717;
+  --vp-c-black: #F1F1F1;
+
+  --vp-c-neutral: var(--vp-c-black);
+  --vp-c-neutral-inverse: var(--vp-c-white);
+}
+
+.VPNavBar .content-body {
+  height: calc(var(--vp-nav-height) - -6px);
+}
+
 /**
  * Colors
  *
@@ -49,10 +80,10 @@
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: var(--vp-c-indigo-1);
-  --vp-c-brand-2: var(--vp-c-indigo-2);
-  --vp-c-brand-3: var(--vp-c-indigo-3);
-  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+  --vp-c-brand-1: #000000;
+  --vp-c-brand-2: #333333;
+  --vp-c-brand-3: #4f4f4f;
+  --vp-c-brand-soft: #666666;
 
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);
@@ -77,7 +108,7 @@
 :root {
   --vp-button-brand-border: transparent;
   --vp-button-brand-text: var(--vp-c-white);
-  --vp-button-brand-bg: var(--vp-c-brand-3);
+  --vp-button-brand-bg: #3c3c3c;
   --vp-button-brand-hover-border: transparent;
   --vp-button-brand-hover-text: var(--vp-c-white);
   --vp-button-brand-hover-bg: var(--vp-c-brand-2);
@@ -92,18 +123,51 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
-    120deg,
-    #bd34fe 30%,
-    #41d1ff
-  );
+  --vp-home-hero-name-background: #000;
 
-  --vp-home-hero-image-background-image: linear-gradient(
-    -45deg,
-    #bd34fe 50%,
-    #47caff 50%
-  );
+  --vp-home-hero-image-background-image: #000;
   --vp-home-hero-image-filter: blur(44px);
+}
+.VPHomeHero .name, .VPHomeHero .text, .VPHomeHero .tagline {
+  line-height: 56px;
+  font-size: 48px;
+}
+
+.VPHomeHero .name {
+  font-weight: 900;
+  color: #000;
+  max-width: 1000px;
+}
+
+.VPHomeHero .text {
+  font-weight: normal;
+  max-width: 1000px;
+  color: #000;
+  font-style: oblique;
+}
+
+.VPHomeHero .tagline {
+  color: #000;
+  font-weight: normal;
+  max-width: 1000px;
+  padding-top: 0;
+  font-size: 42px;
+}
+
+.VPFeature {
+  border: 2px solid #3c3c3c !important;
+  background: white !important;
+}
+
+
+.VPFeature .box {
+  padding: 21px 18px 36px;
+}
+
+.VPFeature .icon {
+  display: block !important;
+  height: 48px !important;
+  background: 0 !important;
 }
 
 @media (min-width: 640px) {
@@ -115,6 +179,9 @@
 @media (min-width: 960px) {
   :root {
     --vp-home-hero-image-filter: blur(68px);
+  }
+  .VPHero {
+    padding-left: 102px !important;
   }
 }
 
@@ -134,6 +201,14 @@
  * -------------------------------------------------------------------------- */
 
 .DocSearch {
-  --docsearch-primary-color: var(--vp-c-brand-1) !important;
+  --docsearch-primary-color: var(--vp-c-default-3) !important;
+  border: 1px solid var(--vp-c-default-3);
 }
 
+.DocSearch-Button:hover {
+  border: 1px solid var(--vp-c-default-1);
+}
+
+.VPSidebarItem .item {
+  z-index: 1;
+}

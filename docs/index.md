@@ -3,29 +3,30 @@
 layout: home
 
 hero:
-  name: "DePHY.io"
-  text: "Web3 Infrastructure connecting the Verifiable Physical World."
-  tagline: Web3 connects everything, and everything can be trusted.
+  name: "Verifiable \nWeb3 Infrastructure"
+  text: Connecting the Physical World
+  #tagline: "to Web3."
+  # tagline: Web3 connects everything, and everything can be trusted.
   actions:
     - theme: brand
-      text: Introduction
+      text: Get Started
       link: /introduction
 
 features:
-  - icon: 🌐
+  - icon: 🪐
     title: Decentralized
     details: >
       Everyone can deploy their Edge Brokers locally, and uses NoStr as the transfer layer.
   - icon: 📝
-    title: Verifiability
+    title: Verifiable
     details: >
       Trust built on hardware level, traceable, tamper-proofing, and work with ZK technology.
-  - icon: ⚙️
-    title: Composability
+  - icon: 🧩
+    title: Composable
     details: >
       Work with any kind of blockchain, and streaming verifiable data to downstream consumers (e.g., Oracles, storage providers).
-  - icon: ✅
-    title: Compatibility
+  - icon: ⚙️  
+    title: Compatible
     details: >
       Only commonly used technologies such as MQTT, HTTP. First class Arduino support.
 ---

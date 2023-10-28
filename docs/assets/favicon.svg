@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+  rect {
+    fill: #333333;
+  }
+  path {
+    fill: #333333;
+  }
+  @media (prefers-color-scheme: dark) {
+    rect {
+    fill: #eeeeee;
+    }
+    path {
+    fill: #eeeeee;
+    }
+  }
+</style>
+<rect x="156" y="100" width="72" height="7.2" transform="rotate(90 156 100)" fill="#333333"/>
+<rect x="134.4" y="100" width="72" height="7.2" transform="rotate(90 134.4 100)" fill="#333333"/>
+<rect x="112.8" y="100" width="72" height="7.2" transform="rotate(90 112.8 100)" fill="#333333"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M43.8 115C43.8 75.2355 76.0355 43 115.8 43V50.2C80.0119 50.2 51 79.212 51 115H43.8Z" fill="#333333"/>
+</svg>
