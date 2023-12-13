@@ -36,16 +36,6 @@ DePHY is a decentralized low-latency off-chain network for DePIN with verifiabil
     - **Prevention of Replay Attacks:** The protocol's design inherently guards against replay attacks, ensuring communication authenticity.
     - **Remote Attestation Technology:** Supports Remote Attestation, validating that special firmware is operational in TrustZone, further affirming system integrity.
 
-### Proof of Action
-
-#### What is Proof of Action?
-
-TODO
-
-#### Why need Proof of Action?
-
-TODO
-
 ## Composability
 
 ### How DePHY provide composability?
@@ -63,8 +53,6 @@ TODO
 ## How does DePHY work?
 
 ![How the DePHY network works](./assets/how_dephy_works.png)
-
-![How the DePHY network works 2](./assets/how_dephy_works_2.png)
 
 - **DID of DePin Devices**
     - **Unique Key Pairs for Each Device:** Every DePhy device is assigned a distinct and permanent pair of keys, ensuring a secure and unique digital identity.
