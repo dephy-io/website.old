@@ -16,7 +16,7 @@ const members = [
     // title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/skysummerice' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/in/%E5%96%86-%E7%8E%8B-0a99a038/' }
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/%E5%96%86-%E7%8E%8B-0a99a038/' },
     ],
     desc: `
     <ul style="list-style: circle; text-align: left;">
@@ -32,13 +32,28 @@ const members = [
     // title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/jasl' },
-      { icon: 'twitter', link: 'https://twitter.com/jasl9187' }
+      { icon: 'twitter', link: 'https://twitter.com/jasl9187' },
     ],
     desc: `
     <ul style="list-style: circle; text-align: left;">
       <li>Full stack developer</li>
       <li>Ruby developer!</li>
       <li>Phala Network Co-Founder</li>
+    </ul>
+    `,
+  },
+  {
+    avatar: '/avatar/nicholas_deng.jpg',
+    name: 'Nicholas Deng',
+    // title: 'Creator',
+    links: [
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/tingyandeng/' },
+      { icon: 'github', link: 'https://github.com/nicholasvandy' },
+    ],
+    desc: `
+    <ul style="list-style: circle; text-align: left;">
+      <li>Triple major highest honor graduated from Vanderbilt CS</li>
+      <li>PhD Dropout at Harvard Graduate School, Dino founder, backed by YC China</li>
     </ul>
     `,
   },
